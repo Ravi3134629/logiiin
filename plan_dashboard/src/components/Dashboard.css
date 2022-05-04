@@ -1,0 +1,10 @@
+.dashboard{
+    width:90%;
+    margin:32px auto;
+}
+
+.dashboard_plans{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+    grid-gap:18px;
+}
